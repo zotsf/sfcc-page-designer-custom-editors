@@ -1,0 +1,94 @@
+.ce.new-custom-editor {
+	display: flex;
+	flex-wrap: wrap;
+}
+.ce.new-custom-editor .slds-form-element {
+	margin-bottom:5px;
+}
+.ce.new-custom-editor .full, 
+.ce.new-custom-editor .half,
+.ce.new-custom-editor .third,
+.ce.new-custom-editor .two-thirds {
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+.ce.new-custom-editor .third {
+	flex-basis: 33%;
+}
+.ce.new-custom-editor .two-thirds {
+	flex-basis: 66%;
+}
+.ce.new-custom-editor .half {
+	flex-basis: 50%;
+}
+.ce.new-custom-editor .full {
+	flex-basis: 100%;
+}
+.new-nine-grid {
+	display:grid;
+	grid-template-columns: repeat(3, 24px);
+	grid-template-rows: repeat(3, 24px);
+	gap: 0px;
+}
+.new-nine-grid .grid-coordinate {}
+.new-nine-grid .grid-coordinate.slds-button {border:none;}
+.new-nine-grid .grid-coordinate label {
+	display:block;
+	width:24px;
+	height:24px;
+	background-color: #FFFFFF;
+}
+.new-nine-grid .grid-coordinate label span { display:none; }
+.new-nine-grid .grid-coordinate label {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.new-nine-grid .grid-coordinate--top-left label { 
+	background-image: url("../images/directional_top-left.png");
+ }
+.new-nine-grid .grid-coordinate--top-center label { 
+	background-image: url("../images/directional_top.png");
+ }
+.new-nine-grid .grid-coordinate--top-right label { 
+	background-image: url("../images/directional_top-right.png");
+ }
+.new-nine-grid .grid-coordinate--left label { 
+	background-image: url("../images/directional_left.png");
+ }
+.new-nine-grid .grid-coordinate--center label { 
+	background-image: url("../images/directional_center.png");
+ }
+.new-nine-grid .grid-coordinate--right label { 
+	background-image: url("../images/directional_right.png");
+ }
+.new-nine-grid .grid-coordinate--bottom-left label { 
+	background-image: url("../images/directional_bottom-left.png");
+ }
+.new-nine-grid .grid-coordinate--bottom-center label { 
+	background-image: url("../images/directional_bottom.png");
+ }
+.new-nine-grid .grid-coordinate--bottom-right label { 
+	background-image: url("../images/directional_bottom-right.png");
+ }
+.new-nine-grid .grid-coordinate.slds-radio [type=radio]:checked+.slds-radio__label {
+ 	background-color: #e9eef1;
+	box-shadow: inset 0 0 8px -2px #141a1f;
+	border-radius: 2px;
+}
+
+.new-align-buttons {}
+.new-align-buttons {
+	display:flex;
+	flex-wrap: nowrap;
+}
+.new-align-buttons label {
+	padding:5px;
+}
+.new-align-buttons .slds-radio_button [type=radio]:checked+.slds-radio_button__label {
+	background-color: #eef1f6;	
+}
+.new-align-buttons .slds-button__icon {
+	width:24px;
+	height:24px;
+	fill: #919191;
+}

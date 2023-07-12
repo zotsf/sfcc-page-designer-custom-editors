@@ -1,0 +1,14 @@
+{
+	"name": "Build a Link",
+	"description": "Custom editor to build a link",
+	"resources": {
+		"scripts": [
+			"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js",
+			"/experience/editors/breakout/linkBreakout.js"
+		],
+		"styles": [
+			"https://cdnjs.cloudflare.com/ajax/libs/design-system/2.8.3/styles/salesforce-lightning-design-system.min.css",
+			"/experience/editors/breakout.css"
+		]
+	}
+}

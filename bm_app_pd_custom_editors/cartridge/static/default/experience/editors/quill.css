@@ -1,0 +1,8 @@
+.newQuill,
+.ql-editor {
+	background-color:#fff;
+}
+.newQuill .ql-snow.ql-toolbar button.ql-active,
+.newQuill .ql-snow.ql-toolbar .ql-picker-label.ql-active {
+	background-color: #eee;
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Core",
+	"description": "Core Custom Editor, use this as a reference for creating new custom editors",
+	"resources": {
+		"scripts": [
+			"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js",
+			"/experience/editors/helpers/newHelpers.js",
+			"/experience/editors/helpers/newInterface.js",
+			"/experience/editors/inline/textAlign.js"
+		],
+		"styles": [
+			"https://cdnjs.cloudflare.com/ajax/libs/design-system/2.8.3/styles/salesforce-lightning-design-system.min.css",
+			"/experience/editors/trigger.css"
+		]
+	}
+}

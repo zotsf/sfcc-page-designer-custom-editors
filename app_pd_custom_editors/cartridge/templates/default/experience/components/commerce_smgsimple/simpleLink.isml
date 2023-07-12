@@ -1,0 +1,17 @@
+<div class="p-3">
+	<isif condition="${pdict.links}">
+		<div class="links-holder">
+			<isloop items="${pdict.links.linksArray}" var="link">
+				<!-- isinclude template="/experience/components/commerce_assets/includes/customEditorLink.isml" /-->
+				<p><strong>Admin Display Name:</strong> ${link.displayName}</p>
+				<p><strong>Text:</strong> ${link.text}</p>
+				<p><strong>Url:</strong> ${link.href}</p>
+				<p><strong>aria:</strong> ${link.ariaLabel}</p>
+				<p><strong>css:</strong> ${link.classString}</p>
+				<p><strong>Show link Arrow:</strong> ${link.showLinkArrow}</p>
+				<p><strong>query string:</strong> ${link.linkQueryString}</p>
+				<hr/>
+			</isloop>
+		</div>
+	</isif>
+</div>

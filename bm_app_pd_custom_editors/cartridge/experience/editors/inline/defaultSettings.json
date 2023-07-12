@@ -1,0 +1,16 @@
+{
+	"name": "Padding Settings",
+	"description": "Custom editor set left and right padding.",
+	"resources": {
+		"scripts": [
+			"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js",
+			"/experience/editors/helpers/newHelpers.js",
+			"/experience/editors/helpers/newInterface.js",
+			"/experience/editors/inline/defaultSettings.js"
+		],
+		"styles": [
+			"https://cdnjs.cloudflare.com/ajax/libs/design-system/2.8.3/styles/salesforce-lightning-design-system.min.css",
+			"/experience/editors/trigger.css"
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Build an Accordion Section",
+	"description": "Custom editor to build an expandable section of an accordion",
+	"resources": {
+		"scripts": [
+			"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js",
+			"/experience/editors/helpers/quill.min.js",
+			"/experience/editors/inline/richText.js"
+		],
+		"styles": [
+			"https://cdnjs.cloudflare.com/ajax/libs/design-system/2.8.3/styles/salesforce-lightning-design-system.min.css",
+			"/experience/editors/helpers/quill.snow.css",
+			"/experience/editors/quill.css"
+		]
+	}
+}

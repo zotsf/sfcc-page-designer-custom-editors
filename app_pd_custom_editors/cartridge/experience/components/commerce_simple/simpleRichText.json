@@ -1,0 +1,22 @@
+{
+  "name": "Simple Rich Text",
+  "description": "This is a simple rich text editor.",
+  "group": "3_Simple",
+  "attribute_definition_groups": [
+    {
+      "id": "simpleRichText",
+      "attribute_definitions": [
+        {
+          "id": "richText",
+          "name": "Content Editor",
+          "type": "custom",
+          "required": false,
+          "editor_definition": {
+            "type": "inline.richText"
+          }
+        }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

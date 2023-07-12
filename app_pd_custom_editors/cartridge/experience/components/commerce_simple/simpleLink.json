@@ -1,0 +1,26 @@
+{
+  "name": "Link DO NOT USE",
+  "description": "This is a simple link.",
+  "group": "3_Simple",
+  "attribute_definition_groups": [
+    {
+      "id": "simpleLinkGroup",
+      "name": "Link Options",
+      "attribute_definitions": [
+        {
+          "id": "links",
+          "name": "Links",
+          "type": "custom",
+          "editor_definition": {
+            "type": "breakout.link",
+            "configuration": {
+							"maxLinks": 3
+						}
+          },
+          "required": false 
+        }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

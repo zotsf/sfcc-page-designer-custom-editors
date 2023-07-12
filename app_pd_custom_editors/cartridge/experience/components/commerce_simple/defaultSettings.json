@@ -1,0 +1,23 @@
+{
+    "name": "Default Settings",
+    "description": "Test component for default settings",
+    "group": "1_Simple",
+    "attribute_definition_groups": [
+        {
+            "id": "defaultOptions",
+            "name": "Default Options",
+            "attribute_definitions": [
+				{
+					"id": "defaultSettings",
+					"name": "Default Settings",
+					"type": "custom",
+					"required": false,
+					"editor_definition": {
+						"type": "inline.defaultSettings"
+					}
+				}
+            ]
+        }
+    ],
+    "region_definitions": []
+}

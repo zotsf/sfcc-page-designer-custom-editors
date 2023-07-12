@@ -1,0 +1,37 @@
+{
+    "name": "Core component for testing DO NOT USE",
+    "description": "This is a simple component for testing.",
+    "group": "1_Simple",
+    "attribute_definition_groups": [
+        {
+            "id": "defaultOptions",
+			"name": "Default Options",
+            "attribute_definitions": [
+                {
+                    "id": "textAlign",
+                    "name": "Text Align",
+                    "type": "custom",
+                    "required": false,
+                    "editor_definition": {
+						"type": "inline.textAlign",
+						"configuration": {
+							"breakpoint": "lg"
+						}
+					}
+                }
+            ]
+        },
+		{
+			"id": "theRest",
+            "attribute_definitions": [
+                {
+                    "id": "someText",
+                    "name": "A Text Field",
+                    "type": "string",
+                    "required": false
+                }
+            ]
+		}
+    ],
+    "region_definitions": []
+}

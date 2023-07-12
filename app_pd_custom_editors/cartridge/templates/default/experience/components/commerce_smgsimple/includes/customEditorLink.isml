@@ -1,0 +1,9 @@
+<a
+	href="${link.href}"
+	class="${link.classString}"
+	<isif condition="${link.ariaLabel}">
+		aria-label="${link.ariaLabel}"
+	</isif>
+>
+	<isprint value="${link.text}" encoding="off"/>
+</a>

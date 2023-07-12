@@ -1,0 +1,25 @@
+<isscript>
+	var assets = require('*/cartridge/scripts/assets.js');
+	assets.addCss('/css/experience/components/commerceSmgassets/accordion.css');
+</isscript>
+
+<div class="px-3 ${pdict.classes}">
+	<div class="container px-3 py-5 px-lg-6">
+		<div class="accordion" id="${pdict.componentID + 'Sections'}">
+			<isloop items="${pdict.accordion.sections ? pdict.accordion.sections : null}" var="accordionItem" status="loopState">
+				<div class="card">
+					<div class="card-header" id="${pdict.componentID + '-heading' + loopState.index}">
+						<button class="title ${loopState.index == pdict.accordion.defaultOpenSection ? '' : 'collapsed'}" data-toggle="collapse" data-target="${'#' + pdict.componentID+ '-collapse' + loopState.index}" tabindex="0" aria-expanded="${loopState.index == pdict.accordion.defaultOpenSection ? 'true' : 'false'}" aria-controls="${pdict.componentID + '-collapse' + loopState.index}">${accordionItem.title}</button>
+					</div>
+					<div id="${pdict.componentID + '-collapse' + loopState.index}" class="collapse ${loopState.index == pdict.accordion.defaultOpenSection ? 'show' : ''}" aria-labelledby="${pdict.componentID + '-heading' + loopState.index}" data-parent="${'#' + pdict.componentID + 'Sections'}">
+						<div class="card-body">
+							<div class="content">
+								<isprint value="${accordionItem.content}" encoding="off"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</isloop>
+		</div>
+	</div>
+</div>

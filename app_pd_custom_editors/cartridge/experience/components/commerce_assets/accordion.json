@@ -1,0 +1,22 @@
+{
+	"name": "Accordion",
+	"group": "2_Asset",
+	"attribute_definition_groups": [
+		{
+			"id": "content",
+			"name": "Content",
+			"attribute_definitions": [
+				{
+					"id": "accordion",
+					"name": "Build Your Accordion",
+					"type": "custom",
+					"required": false,
+					"editor_definition": {
+						"type": "breakout.accordion"
+					}
+				}
+			]
+		}
+	],
+	"region_definitions": []
+}
